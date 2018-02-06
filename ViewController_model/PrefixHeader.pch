@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  ViewController_model
+//
+//  Created by bang on 2018/1/22.
+//  Copyright © 2018年 XiaoHuiBang. All rights reserved.
+//
+
+// 常用宏定义
+#define kWidth [UIScreen mainScreen].bounds.size.width
+
+// 自定义log输出，debug时，正常NSLog输出，release状态，为空，不打印
+#ifdef DEBUG // 调试时
+
+#define XJLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布时
+
+#define XJLog(...)
+
+#endif
+
+// 公共头文件引用
+#ifdef __OBJC__
+
+#import "Super_ViewController.h"
+#import <Masonry/Masonry.h>
+#import "Button.h"
+#import <MSWeakTimer/MSWeakTimer.h>
+#import <MLTransition/MLTransition.h>
+#endif
+

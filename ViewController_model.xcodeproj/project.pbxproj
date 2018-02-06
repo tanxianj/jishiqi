@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		361F5ADC201594E60098A3AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 361F5ADB201594E60098A3AD /* AppDelegate.m */; };
-		361F5ADF201594E60098A3AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361F5ADE201594E60098A3AD /* ViewController.m */; };
+		361F5ADF201594E60098A3AD /* Super_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361F5ADE201594E60098A3AD /* Super_ViewController.m */; };
 		361F5AE2201594E60098A3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361F5AE0201594E60098A3AD /* Main.storyboard */; };
 		361F5AE4201594E60098A3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361F5AE3201594E60098A3AD /* Assets.xcassets */; };
 		361F5AE7201594E60098A3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361F5AE5201594E60098A3AD /* LaunchScreen.storyboard */; };
 		361F5AEA201594E60098A3AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 361F5AE9201594E60098A3AD /* main.m */; };
 		361F5AF4201594E60098A3AD /* ViewController_modelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 361F5AF3201594E60098A3AD /* ViewController_modelTests.m */; };
 		361F5AFF201594E60098A3AD /* ViewController_modelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 361F5AFE201594E60098A3AD /* ViewController_modelUITests.m */; };
+		361F5B0E201595200098A3AD /* View2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 361F5B0D201595200098A3AD /* View2Controller.m */; };
+		361F5B17201599480098A3AD /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 361F5B16201599480098A3AD /* Button.m */; };
+		361F5B282015DEB60098A3AD /* RememberTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361F5B272015DEB60098A3AD /* RememberTimeViewController.m */; };
+		C8868F36AD5BF5B8697ED0DA /* libPods-ViewController_model.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3497FEF2968EB1A336F5BBD0 /* libPods-ViewController_model.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3497FEF2968EB1A336F5BBD0 /* libPods-ViewController_model.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViewController_model.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		361F5AD7201594E60098A3AD /* ViewController_model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewController_model.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		361F5ADA201594E60098A3AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		361F5ADB201594E60098A3AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		361F5ADD201594E60098A3AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		361F5ADE201594E60098A3AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		361F5ADD201594E60098A3AD /* Super_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Super_ViewController.h; sourceTree = "<group>"; };
+		361F5ADE201594E60098A3AD /* Super_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Super_ViewController.m; sourceTree = "<group>"; };
 		361F5AE1201594E60098A3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		361F5AE3201594E60098A3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		361F5AE6201594E60098A3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,15 @@
 		361F5AFA201594E60098A3AD /* ViewController_modelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewController_modelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		361F5AFE201594E60098A3AD /* ViewController_modelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController_modelUITests.m; sourceTree = "<group>"; };
 		361F5B00201594E60098A3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361F5B0C201595200098A3AD /* View2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View2Controller.h; sourceTree = "<group>"; };
+		361F5B0D201595200098A3AD /* View2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View2Controller.m; sourceTree = "<group>"; };
+		361F5B13201596CA0098A3AD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		361F5B15201599480098A3AD /* Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		361F5B16201599480098A3AD /* Button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		361F5B262015DEB60098A3AD /* RememberTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RememberTimeViewController.h; sourceTree = "<group>"; };
+		361F5B272015DEB60098A3AD /* RememberTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RememberTimeViewController.m; sourceTree = "<group>"; };
+		9EACC6232622631A6463978A /* Pods-ViewController_model.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewController_model.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewController_model/Pods-ViewController_model.release.xcconfig"; sourceTree = "<group>"; };
+		DA3987B26E64BCDE663AFC2F /* Pods-ViewController_model.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewController_model.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewController_model/Pods-ViewController_model.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8868F36AD5BF5B8697ED0DA /* libPods-ViewController_model.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F951E125AF20E10A549D039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA3987B26E64BCDE663AFC2F /* Pods-ViewController_model.debug.xcconfig */,
+				9EACC6232622631A6463978A /* Pods-ViewController_model.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		361F5ACE201594E60098A3AD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +109,8 @@
 				361F5AF2201594E60098A3AD /* ViewController_modelTests */,
 				361F5AFD201594E60098A3AD /* ViewController_modelUITests */,
 				361F5AD8201594E60098A3AD /* Products */,
+				0F951E125AF20E10A549D039 /* Pods */,
+				558A93C1039F5AFAD0534464 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +127,19 @@
 		361F5AD9201594E60098A3AD /* ViewController_model */ = {
 			isa = PBXGroup;
 			children = (
+				361F5B12201595C60098A3AD /* tool */,
 				361F5ADA201594E60098A3AD /* AppDelegate.h */,
 				361F5ADB201594E60098A3AD /* AppDelegate.m */,
-				361F5ADD201594E60098A3AD /* ViewController.h */,
-				361F5ADE201594E60098A3AD /* ViewController.m */,
+				361F5B0C201595200098A3AD /* View2Controller.h */,
+				361F5B0D201595200098A3AD /* View2Controller.m */,
+				361F5B262015DEB60098A3AD /* RememberTimeViewController.h */,
+				361F5B272015DEB60098A3AD /* RememberTimeViewController.m */,
 				361F5AE0201594E60098A3AD /* Main.storyboard */,
 				361F5AE3201594E60098A3AD /* Assets.xcassets */,
 				361F5AE5201594E60098A3AD /* LaunchScreen.storyboard */,
 				361F5AE8201594E60098A3AD /* Info.plist */,
 				361F5AE9201594E60098A3AD /* main.m */,
+				361F5B13201596CA0098A3AD /* PrefixHeader.pch */,
 			);
 			path = ViewController_model;
 			sourceTree = "<group>";
@@ -132,6 +162,25 @@
 			path = ViewController_modelUITests;
 			sourceTree = "<group>";
 		};
+		361F5B12201595C60098A3AD /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				361F5B15201599480098A3AD /* Button.h */,
+				361F5B16201599480098A3AD /* Button.m */,
+				361F5ADD201594E60098A3AD /* Super_ViewController.h */,
+				361F5ADE201594E60098A3AD /* Super_ViewController.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		558A93C1039F5AFAD0534464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3497FEF2968EB1A336F5BBD0 /* libPods-ViewController_model.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 361F5B03201594E60098A3AD /* Build configuration list for PBXNativeTarget "ViewController_model" */;
 			buildPhases = (
+				3B4ED28463FF8CAC4A37829A /* [CP] Check Pods Manifest.lock */,
 				361F5AD3201594E60098A3AD /* Sources */,
 				361F5AD4201594E60098A3AD /* Frameworks */,
 				361F5AD5201594E60098A3AD /* Resources */,
+				77B8844F3D58E0E7B342BE38 /* [CP] Embed Pods Frameworks */,
+				3A6E19C1F4A0DEA51795099D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,12 +312,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A6E19C1F4A0DEA51795099D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewController_model/Pods-ViewController_model-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B4ED28463FF8CAC4A37829A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViewController_model-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B8844F3D58E0E7B342BE38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewController_model/Pods-ViewController_model-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		361F5AD3201594E60098A3AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				361F5ADF201594E60098A3AD /* ViewController.m in Sources */,
+				361F5ADF201594E60098A3AD /* Super_ViewController.m in Sources */,
+				361F5B0E201595200098A3AD /* View2Controller.m in Sources */,
+				361F5B282015DEB60098A3AD /* RememberTimeViewController.m in Sources */,
+				361F5B17201599480098A3AD /* Button.m in Sources */,
 				361F5AEA201594E60098A3AD /* main.m in Sources */,
 				361F5ADC201594E60098A3AD /* AppDelegate.m in Sources */,
 			);
@@ -428,11 +534,15 @@
 		};
 		361F5B04201594E60098A3AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3987B26E64BCDE663AFC2F /* Pods-ViewController_model.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WA3G6F6L8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ViewController_model/PrefixHeader.pch";
 				INFOPLIST_FILE = ViewController_model/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaohuibang.ViewController-model";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +552,15 @@
 		};
 		361F5B05201594E60098A3AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EACC6232622631A6463978A /* Pods-ViewController_model.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WA3G6F6L8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ViewController_model/PrefixHeader.pch";
 				INFOPLIST_FILE = ViewController_model/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaohuibang.ViewController-model";
 				PRODUCT_NAME = "$(TARGET_NAME)";
